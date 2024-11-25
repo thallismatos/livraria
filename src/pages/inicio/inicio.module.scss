@@ -1,0 +1,62 @@
+.post {
+  display: flex;
+  align-items: center;
+  background-image: url("../../assets/RedeDeDoação.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 1.5rem 0;
+  height: 90vh;
+  margin: 0 0 1.5rem 0;
+  h2 {
+    color: white;
+    width: 27vw;
+    font-size: 3rem;
+    margin-left: 4rem;
+  }
+}
+
+.devoDoar {
+  height: 80vh;
+  div {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    h2 {
+      font-size: 2rem;
+    }
+  }
+}
+
+.card {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 1rem;
+  margin: auto;
+  gap: 1rem;
+
+  article {
+    background: #0157944d;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    width: 290px;
+    height: 320px;
+    border-radius: 4px;
+    padding: 1rem;
+
+    img {
+      width: 100px;
+      height: auto;
+    }
+    h3 {
+      text-align: center;
+    }
+  }
+}
