@@ -18,7 +18,7 @@ export default function Header() {
               <Link to="/">Início</Link>
             </li>
             <li>
-              <Link to="livros">Livros</Link>
+              <Link to="doados">Livros</Link>
             </li>
             <li>
               <Link to="doar">Quero doar</Link>
@@ -27,7 +27,6 @@ export default function Header() {
         </nav>
         <div className={H.busca}>
           <input type="text" placeholder="o que você precisa ?" />
-          {/* <img src={Busca} alt="" /> */}
         </div>
       </header>
       <Routes>

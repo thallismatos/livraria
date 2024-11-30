@@ -1,0 +1,48 @@
+.doados {
+  max-width: 1200px;
+  padding: 0 1.5rem;
+  margin: auto;
+  text-align: center;
+
+  h2 {
+    font-size: clamp(1.5rem, 5vw, 2rem);
+    padding-top: 1rem;
+  }
+}
+
+.livros {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
+  place-items: center center;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+
+  .livro_card {
+    display: flex;
+    flex-direction: column;
+    place-content: center center;
+    border-radius: 0.25rem;
+    border: 2px solid #005695;
+    padding: 1rem 0;
+    width: 230px;
+    height: 230px;
+
+    img {
+      margin-bottom: 1rem;
+    }
+
+    h3 {
+      font-size: 1.25rem;
+      margin-bottom: 0.5rem;
+      font-style: italic;
+    }
+    span {
+      font-size: 1.125rem;
+    }
+
+    p {
+      font-size: 1rem;
+      margin-top: 0.1rem;
+    }
+  }
+}
