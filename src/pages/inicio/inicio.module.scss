@@ -2,24 +2,19 @@
   max-width: 100%;
   background: url("../../assets/RedeDeDoação.png") no-repeat center center;
   background-size: cover;
-  height: 60vh;
-
-  @media screen and (max-width: 1024px) {
-    height: calc(50vh - 100px);
-  }
+  height: 65vh;
 }
 
 .container {
   display: flex;
   align-items: center;
   max-width: 1200px;
-  height: 60vh;
+  height: 65vh;
   padding: 0 2.5rem;
   margin: auto;
 
   @media screen and (max-width: 1024px) {
     width: 100%;
-    height: calc(50vh - 100px);
     padding: 0 1rem;
     justify-content: center;
   }
