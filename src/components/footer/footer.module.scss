@@ -1,1 +1,41 @@
+.contato {
+  background: linear-gradient(90deg, #001b2f, #005695);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3rem;
+  padding: 2rem 5rem;
+  margin: auto;
 
+  @media screen and (max-width: 768px) {
+    padding: 1rem 2rem;
+    justify-content: center;
+    gap: 0.5rem;
+    flex-direction: column;
+  }
+
+  h3 {
+    font-size: clamp(0.875rem, 2vw, 1rem);
+    color: white;
+  }
+
+  .rede_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      width: 24px;
+      height: auto;
+    }
+  }
+}
+
+.direitos {
+  background: #232020;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  font-size: clamp(0.875rem, 2.3vw, 1rem);
+}
