@@ -1,9 +1,13 @@
 .form_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   max-width: 1200px;
   padding: 1rem 1.5rem;
   margin: auto;
   text-align: center;
-  height: auto;
+  height: 80vh;
 
   h2 {
     font-size: clamp(1rem, 3vw, 1.75rem);
