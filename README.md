@@ -1,8 +1,8 @@
-<header align="center">
+<div align="center">
   <h2>📚 Projeto Livraria</h2>
-</header>
+</div>
 
-## 📖 Índice
+### 📖 Índice
 
 1. [Acesso](#-acesso)
 2. [Resumo do Projeto](#-resumo-do-projeto)
@@ -11,15 +11,11 @@
 5. [Contato](#-contato)
 6. [Licença](#-licença)
 
----
-
-## 🖱 Acesso
+### 🖱 Acesso
 
 Acesse o site clicando [aqui](https://vainaweblivraria.vercel.app/).
 
----
-
-## 🔍 Resumo do Projeto
+### 🔍 Resumo do Projeto
 
 O projeto **Livraria** foi desenvolvido durante o curso de **Full Stack** da plataforma **Vai na Web**, com o objetivo de praticar conceitos fundamentais de **React** e **SASS**. As principais funcionalidades incluem:
 
@@ -30,33 +26,32 @@ O projeto **Livraria** foi desenvolvido durante o curso de **Full Stack** da pla
 - **Formulário funcional**: Inclusão de entrada de dados com validações básicas.
 - **Deploy:** Publicação do projeto na **Vercel**.
 
----
-
-## 🎯 Tecnologias Utilizadas
+### 🎯 Tecnologias Utilizadas
 
 - ![React](https://img.shields.io/badge/React-18.0-blue)
 - ![SASS](https://img.shields.io/badge/SASS-1.81-pink)
 - ![Vercel](https://img.shields.io/badge/Deploy-Vercel-blue)
 
----
-
-## 📚 Referências
+### 📚 Referências
 
 - [React Documentation](https://react.dev/)
 - [SASS Documentation](https://sass-lang.com/documentation)
 - [React Router](https://reactrouter.com/en/main)
 - [Vai na Web](https://www.vainabweb.com/)
 
----
+### 📱 Contato
 
-## 📱 Contato
+<p>
+  <a href="https://www.linkedin.com/in/thallismatos/" target="_blank">
+    <img src="https://img.shields.io/badge/-linkedin-0077b5?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+  <a href="https://www.instagram.com/thallis.matos_/">
+    <img src="https://img.shields.io/badge/-instagram-8a3ab9?style=for-the-badge&logo=instagram&logoColor=ffffff" alt="Instagram">
+  </a>
+</p>
 
-- [LinkedIn](https://www.linkedin.com/in/seu-perfil/)
-- [Instagram](https://www.instagram.com/seu-perfil/)
 
----
-
-## 📜 Licença
+### 📜 Licença
 
 Este projeto está sob a:
 
