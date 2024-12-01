@@ -20,25 +20,25 @@ export default function Inicio() {
         <h2>Por que devo doar?</h2>
         <div className={I.container_card}>
           <div className={I.card}>
-            <img src={network} alt="" />
+            <img src={network} alt="network" />
             <p>
               Oferece livros a quem não tem acesso, ajudando a reduzir a
               exclusão social
             </p>
           </div>
           <div className={I.card}>
-            <img src={reading} alt="" />
+            <img src={reading} alt="read" />
             <p>Estimula o hábito da leitura e o aprendizado contínuo.</p>
           </div>
           <div className={I.card}>
-            <img src={transform} alt="" />
+            <img src={transform} alt="transform" />
             <p>
               Fornece conhecimento e inspiração, permitindo que indivíduos
               transformem suas vidas.
             </p>
           </div>
           <div className={I.card}>
-            <img src={balance} alt="" />
+            <img src={balance} alt="balance" />
             <p>
               Garante que todos, independentemente de sua condição, tenham
               oportunidades de aprendizado.

@@ -10,7 +10,7 @@ export default function Header() {
     <BrowserRouter>
       <header className={H.header}>
         <div className={H.logo}>
-          <img src={Logo} alt="" />
+          <img src={Logo} alt="Vai na Web" />
         </div>
         <nav>
           <ul className={H.menu}>

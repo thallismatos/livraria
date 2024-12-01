@@ -10,7 +10,7 @@ export default function QueroDoar() {
       </h2>
       <form className={Q.book_form}>
         <header className={Q.form_subtitle}>
-          <img src={Book} alt="" />
+          <img src={Book} alt="icon book" />
           <h3>Informações do Livro</h3>
         </header>
         <div className={Q.form_field}>
