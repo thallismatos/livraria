@@ -7,9 +7,9 @@
 1. [Acesso](#-acesso)
 2. [Resumo do Projeto](#-resumo-do-projeto)
 3. [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-4. [Referências](#-referencias)
+4. [Referências](#-referências)
 5. [Contato](#-contato)
-6. [Licença](#-licenca)
+6. [Licença](#-licença)
 
 ### 🖱 Acesso
 
