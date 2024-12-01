@@ -1,12 +1,15 @@
+@import "../../variables.scss";
+
 .doados {
-  max-width: 1200px;
-  padding: 0 1.5rem;
+  max-width: $max-width;
+  padding: 0 $padding-medium;
   margin: auto;
   text-align: center;
+  height: 100vh;
 
   h2 {
-    font-size: clamp(1.5rem, 5vw, 2rem);
-    padding-top: 1rem;
+    @include font-clamp(x-large);
+    padding-top: $padding-small;
   }
 }
 
@@ -14,34 +17,43 @@
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(215px, 1fr));
   place-items: center center;
-  gap: 1.5rem;
-  padding: 2rem 1rem;
+  gap: $gap-medium;
+  padding: $padding-medium $padding-small;
 
   .livro_card {
     display: flex;
     flex-direction: column;
     place-content: center center;
     border-radius: 0.25rem;
-    border: 2px solid #005695;
-    padding: 1rem 0;
+    border: 2px solid $border-color;
+    padding: $padding-small 0;
     width: 230px;
     height: 230px;
 
+    @include respond-to(mobile) {
+      width: 60%;
+      height: auto;
+    }
+
     img {
-      margin-bottom: 1rem;
+      margin-bottom: $gap-small;
+      @include respond-to(mobile) {
+        width: 50%;
+        height: auto;
+      }
     }
 
     h3 {
-      font-size: 1.25rem;
-      margin-bottom: 0.5rem;
+      @include font-clamp(medium);
+      margin-bottom: $gap-small;
       font-style: italic;
     }
     span {
-      font-size: 1.125rem;
+      @include font-clamp(small);
     }
 
     p {
-      font-size: 1rem;
+      @include font-clamp(small);
       margin-top: 0.1rem;
     }
   }

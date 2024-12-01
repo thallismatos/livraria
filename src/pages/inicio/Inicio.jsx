@@ -1,3 +1,4 @@
+import "../../variables.scss";
 import I from "./inicio.module.scss";
 import network from "../../assets/network.png";
 import reading from "../../assets/read.png";

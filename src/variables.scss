@@ -1,0 +1,53 @@
+// Variáveis
+$primary-color: #005695;
+$secondary-color: #001b2f;
+$background-color: #232020;
+$text: white;
+$text-dark: black;
+$placeholder-color: #a0a0a0;
+$border-color: #005695;
+$border-radius-small: 0.25rem;
+$max-width: 1200px;
+$padding-small: 1rem;
+$padding-medium: 1.5rem;
+$padding-large: 2.5rem;
+$gap-small: 0.5rem;
+$gap-medium: 1rem;
+$gap-large: 3rem;
+
+// Mixins
+@mixin container {
+  max-width: $max-width;
+  margin: 0 auto;
+  padding: $padding-medium $padding-large;
+}
+
+@mixin font-clamp($size) {
+  @if $size == x-small {
+    font-size: clamp(0.75rem, 1.5vw, 0.875rem); // 12px to 14px
+  } @else if $size == small {
+    font-size: clamp(0.875rem, 2vw, 1rem);
+  } @else if $size == medium {
+    font-size: clamp(1rem, 2.5vw, 1.25rem);
+  } @else if $size == large {
+    font-size: clamp(1.25rem, 3vw, 1.5rem);
+  } @else if $size == x-large {
+    font-size: clamp(1.5rem, 5vw, 2.25rem);
+  } @else if $size == xx-large {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+  } @else {
+    @warn "Tamanho não definido! Use: x-small, small, medium, large, x-large, ou xx-large.";
+  }
+}
+
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == mobile {
+    @media (max-width: 767.98px) {
+      @content;
+    }
+  } @else if $breakpoint == tablet {
+    @media (min-width: 768px) and (max-width: 1023.98px) {
+      @content;
+    }
+  }
+}

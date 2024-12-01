@@ -1,29 +1,29 @@
+@import "../../variables.scss";
+
 .contato {
-  background: linear-gradient(90deg, #001b2f, #005695);
+  background: linear-gradient(90deg, $secondary-color, $primary-color);
   display: flex;
   justify-content: space-between;
   align-items: center;
-  gap: 3rem;
-  padding: 2rem 5rem;
-  margin: auto;
+  gap: $gap-large;
+  padding: $padding-medium;
 
-  @media screen and (max-width: 768px) {
-    padding: 1rem 2rem;
+  @include respond-to(mobile) {
     justify-content: center;
-    gap: 0.5rem;
+    gap: $gap-small;
     flex-direction: column;
   }
 
   h3 {
-    font-size: clamp(0.875rem, 2vw, 1rem);
-    color: white;
+    @include font-clamp(small);
+    color: $text;
   }
 
   .rede_social {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 0.5rem;
+    gap: $gap-small;
 
     img {
       width: 24px;
@@ -33,9 +33,9 @@
 }
 
 .direitos {
-  background: #232020;
-  color: white;
+  background: $background-color;
+  color: $text;
   text-align: center;
-  padding: 1rem;
-  font-size: clamp(0.875rem, 2.3vw, 1rem);
+  padding: $padding-small;
+  @include font-clamp(small);
 }

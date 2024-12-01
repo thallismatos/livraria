@@ -1,3 +1,5 @@
+@import "../../variables.scss";
+
 .home {
   max-width: 100%;
   background: url("../../assets/RedeDeDoação.png") no-repeat center center;
@@ -8,20 +10,20 @@
 .container {
   display: flex;
   align-items: center;
-  max-width: 1200px;
+  max-width: $max-width;
   height: 65vh;
-  padding: 0 2.5rem;
+  padding: 0 $padding-large;
   margin: auto;
 
   @media screen and (max-width: 1024px) {
     width: 100%;
-    padding: 0 1rem;
+    padding: 0 $padding-small;
     justify-content: center;
   }
 
   h1 {
-    font-size: clamp(1.75rem, 6vw, 3rem);
-    color: white;
+    @include font-clamp(xx-large);
+    color: $text;
     text-align: left;
     text-transform: uppercase;
 
@@ -32,25 +34,25 @@
 }
 
 .container_doar {
-  max-width: 1200px;
-  padding: 2rem 1rem;
+  max-width: $max-width;
+  padding: $padding-large $padding-small;
   margin: auto;
 
   h2 {
-    font-size: clamp(1.5rem, 5vw, 2.25rem);
-    color: #005695;
-    padding-bottom: 2.5rem;
+    @include font-clamp(x-large);
+    color: $primary-color;
+    padding-bottom: $padding-large;
 
     @media screen and (max-width: 768px) {
       text-align: center;
-      padding-bottom: 1.5rem;
+      padding-bottom: $padding-medium;
     }
   }
 
   .container_card {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(210px, 1fr));
-    gap: 1rem;
+    gap: $gap-small;
 
     @media screen and (min-width: 768px) and (max-width: 1023.98px) {
       grid-template-columns: 1fr 1fr;
@@ -62,15 +64,15 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
-      gap: 1rem;
-      width: auto;
+      gap: $gap-small;
+      width: 99%;
       height: 101%;
-      padding: 1rem;
-      border-radius: 0.25rem;
+      padding: $padding-small;
+      border-radius: $border-radius-small;
       margin: auto;
 
       @media screen and (max-width: 767.98px) {
-        width: auto;
+        width: 90%;
       }
 
       img {
@@ -84,8 +86,8 @@
       }
 
       p {
-        font-size: clamp(1rem, 2vw, 1.25rem);
-        color: black;
+        @include font-clamp(small);
+        color: $text-dark;
         text-align: center;
       }
     }

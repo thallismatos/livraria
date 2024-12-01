@@ -1,3 +1,4 @@
+import "../../variables.scss";
 import D from "./doados.module.scss";
 import Livro from "../../assets/livro.svg";
 
