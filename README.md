@@ -1,5 +1,5 @@
 <div align="center">
-  <h2>📚 Projeto Livraria</h2>
+  <h2>📚 Livraria - Vai na Web</h2>
 </div>
 
 ### 📖 Índice
@@ -7,9 +7,9 @@
 1. [Acesso](#-acesso)
 2. [Resumo do Projeto](#-resumo-do-projeto)
 3. [Tecnologias Utilizadas](#-tecnologias-utilizadas)
-4. [Referências](#-referências)
+4. [Referências](#-referencias)
 5. [Contato](#-contato)
-6. [Licença](#-licença)
+6. [Licença](#-licenca)
 
 ### 🖱 Acesso
 
@@ -30,14 +30,14 @@ O projeto **Livraria** foi desenvolvido durante o curso de **Full Stack** da pla
 
 - ![React](https://img.shields.io/badge/React-18.0-blue)
 - ![SASS](https://img.shields.io/badge/SASS-1.81-pink)
-- ![Vercel](https://img.shields.io/badge/Deploy-Vercel-blue)
+- ![Vercel](https://img.shields.io/badge/Deploy-Vercel-black)
 
 ### 📚 Referências
 
 - [React Documentation](https://react.dev/)
 - [SASS Documentation](https://sass-lang.com/documentation)
 - [React Router](https://reactrouter.com/en/main)
-- [Vai na Web](https://www.vainabweb.com/)
+- [Vai na Web](https://www.instagram.com/vainaweb/)
 
 ### 📱 Contato
 
