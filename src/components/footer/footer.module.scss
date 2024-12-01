@@ -36,6 +36,6 @@
   background: $background-color;
   color: $text;
   text-align: center;
-  padding: $padding-small;
+  padding: $padding-medium;
   @include font-clamp(small);
 }
